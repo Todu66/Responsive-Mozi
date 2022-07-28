@@ -1,0 +1,209 @@
+
+/* Bellow 1040px */
+@media (max-width: 65em) {
+    .both-side {
+        flex-direction: column;
+    }
+
+    .right-side-img {
+        margin-top: 2rem;
+    }
+
+    .left-side {
+        margin-top: 2rem;
+        
+    }
+
+    .left-text-box {
+        font-size: 30px;
+    }
+
+    
+
+    .right-side-hero {
+        width: 30rem;
+    }
+
+    .png-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img-png-cta {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .desc-img {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-cta {
+        flex-direction: column;
+    }
+
+    .cta-img {
+        margin-top: 2rem;
+    }
+
+    .main-top {
+        text-align: center;
+        
+    }
+
+    .main-img   {
+        text-align: center;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+
+    .left-footer {
+      gap: 3rem;
+    }
+
+    .copy {
+      margin-top: 2rem;
+    }
+
+    .icons-cta {
+      margin-top: 0.5rem;
+    }
+    
+}
+
+
+/* Bellow 720Px */
+@media (max-width: 45em) {
+    .left-side {
+        margin-top: 3rem;
+    }
+
+    .both-side {
+        gap: 3rem;
+    }
+
+    .left-side-links {
+        text-align: center;
+    }
+
+    .left-text-box {
+        text-align: center;
+    }
+
+    .before-footer {
+        flex-direction: column;
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+}
+
+/* Bellow 648PX */
+@media (max-width: 40.5em) {
+  header nav {
+    display: none;
+  }
+
+ 
+  .hero-cta {
+    max-width: 30rem;
+  }
+  #hamburger-icon {
+    display: block;
+  }
+
+  .hero-cta {
+    max-width: 30rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
+  footer {
+    gap: 2rem;
+    padding: 3rem 4rem;
+  }
+
+  .icons-cta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  .copy {
+    margin-top: 1rem;
+  }
+
+  .footer-ul {
+    gap: 1rem;
+  }
+
+  .mozil {
+    margin-top: 1rem;
+  }
+}
+
+/* Bellow 580PX */
+@media (max-width: 36.25em) {
+    .right-side-img{
+        max-width: 22rem;
+    }
+
+    .cta-img {
+      width: 25rem;
+    }
+    
+    .left-side-hero {
+      width: 22rem;
+    }
+
+    .right-side-hero {
+      width: 22rem;
+    }
+    .img-hero {
+      width: 20rem;
+    }
+
+    .cta-img {
+      max-width: 20rem;
+    }
+
+    .hero {
+      width: 15rem;
+    }
+    
+    footer {
+        padding: 3rem 2rem;
+    }
+
+    .foot-ilust {
+      width: 20rem;
+    }
+
+    .left-footer {
+      gap: 2rem;
+    }
+
+    .icons-cta {
+      width: 2rem;
+      margin: 0 auto;
+      gap: 0.5rem;
+    }
+
+    .right-footer {
+      margin-right: -2rem;
+    }
+    .contacts {
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+    }
+}

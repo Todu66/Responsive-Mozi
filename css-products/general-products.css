@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* /////////// Font-Sizes ////////// */
+/* 
+
+16 = 1rem
+
+22 = 1.375rem 
+
+24 = 1.5rem
+
+36 = 2.25rem
+
+44 = 2.75rem
+
+48 = 3rem
+
+
+---------# COLOROS #--------
+
+like red - #BF0830;
+like blue - #1A2578;
+like grey - #484C63;
+
+*/
+
+ul {
+    list-style: none;
+   
+}
+
+a {
+    text-decoration: none;
+    color: #484C63;;
+}
+
+.nav-ul .nav-ul-li .color {
+    color: #fff;;
+}
+/* #---LINKS----# */
+
+.last-link {
+    padding: 0.6rem 1.3rem;
+    background-color: #BF0830;
+    border-radius: 0.4rem;
+}
+
+.left-side-links {
+    margin-top: 2rem;
+}
+
+.learn-more {
+    padding: 0.6rem 1.3rem;
+    border-radius: 0.4rem;
+    color: #fff;
+    background-color: #BF0830;
+}
+
+.work {
+    color: #BF0830;
+    border: #BF0830 1px solid;
+    padding: 0.6rem 1.3rem;
+    border-radius: 0.4rem;
+}
+
+.hero .left-side-hero .work {
+    padding: 0.5rem 1rem;   
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.hero .right-side-hero .work {
+    padding: 0.5rem 1rem;   
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.before-footer .left-footer-cta .work {
+    padding: 0.5rem 1rem;   
+    margin-top: 1rem;
+    display: inline-block;
+}
